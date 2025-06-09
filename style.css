@@ -1,4 +1,4 @@
- html {
+html {
     scroll-behavior: smooth;
   }
 * {
@@ -648,39 +648,22 @@ hr {
       color: #111827;
       margin-left: 10px;
     }
-.preview {
-  position: relative;
-  margin-top: 100px; /* добавляем отступ сверху, чтобы не перекрывать хедер */
-}
-
-.preview img {
-  max-width: 660px;
-  border-radius: 12px;
-  display: block; /* убирает лишний отступ снизу от inline-элемента */
-}
-
-.preview-box {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
-  padding: 10px;
-  border-radius: 6px;
-}
-
-.counter {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background: #2563eb; /* синий фон */
-  color: white;
-  padding: 10px;
-  border-radius: 6px;
-  font-weight: bold;
-  text-align: center;
-}
-
+    .preview {
+      position: relative;
+    }
+    .preview img {
+      max-width: 660px;
+      border-radius: 12px;
+    }
+    .preview-box {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 10px;
+      border-radius: 6px;
+    }
     .counter {
       position: absolute;
       bottom: 20px;
